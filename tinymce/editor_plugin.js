@@ -30,7 +30,7 @@
                     buttons: {
                         "Yes": function() {
                             // js function in the msm/js/editorMethods/nosubordinate.js
-                            removeSubordinate(ed)
+                            removeSubordinate(ed, '');
                             $(this).dialog("close");
                         },
                         "No": function() {
